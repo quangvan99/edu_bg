@@ -1,0 +1,4 @@
+rich
+pypandoc
+google-genai
+markdown
