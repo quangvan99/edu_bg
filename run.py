@@ -12,12 +12,12 @@ from rich.text import Text
 from rich.progress import Progress, SpinnerColumn, TextColumn
 import pypandoc
 from google import genai
+from dotenv import load_dotenv; load_dotenv()
 
-os.environ['PYTHONIOENCODING'] = 'utf-8'
 console = Console()
 
 class Config:
-    API_KEY = "AIzaSyDvfeKx6BT4JXL-CItT37bjP3mLmKzfxS0"
+    API_KEY = os.getenv('GEMINI_API_KEY')
     MODEL = 'gemini-2.0-flash'
     OUTPUT_DIR = "results"
     FORMAT_FILE = "format/format.docx"
@@ -51,19 +51,18 @@ class StructureParser:
 
     def parse(self):
         """Parse file format để trích xuất cấu trúc"""
-        # Convert docx sang markdown
-        md_file = self.format_file.replace('.docx', '_extracted.md')
-
-        if not os.path.exists(md_file):
-            try:
-                pypandoc.convert_file(self.format_file, 'md', outputfile=md_file)
-            except Exception as e:
-                console.print(f"[red]Lỗi parse format: {e}[/red]")
-                return {}
-
-        # Đọc nội dung markdown
-        with open(md_file, 'r', encoding='utf-8') as f:
-            self.format_content = f.read()
+        try:
+            # Convert trực tiếp docx sang markdown, trả về string
+            self.format_content = pypandoc.convert_file(
+                self.format_file,
+                'md',
+                format='docx',          # optional nhưng nên có
+                outputfile=None,        # bắt buộc để lấy string
+                extra_args=['--standalone']
+            )
+        except Exception as e:
+            console.print(f"[red]Lỗi parse format: {e}[/red]")
+            return {}
 
         # Parse cấu trúc từ markdown
         self.structure = self._extract_structure(self.format_content)

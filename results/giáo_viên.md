@@ -1,12 +1,5 @@
 ### Giáo viên
-- Kế hoạch bài dạy (KHBD), giáo án, bảng phụ, máy chiếu (nếu có), phần mềm trình chiếu (PowerPoint, Google Slides...) chứa các ví dụ, bài tập.
-- Bảng tóm tắt các công thức nghiệm tổng quát và nghiệm thu gọn của phương trình bậc hai.
-- Phiếu học tập:
-    - Bài tập nhận biết phương trình bậc hai và xác định hệ số $a, b, c$.
-    - Bài tập giải phương trình bậc hai bằng công thức nghiệm (tổng quát và thu gọn).
-    - Bài tập áp dụng biệt thức $\Delta$ để biện luận số nghiệm của phương trình bậc hai.
-    - Bài tập vận dụng định lý Vi-ét để tính tổng và tích các nghiệm.
-    - Bài tập giải bài toán thực tế bằng cách lập phương trình bậc hai.
-    - Câu hỏi trắc nghiệm kiểm tra kiến thức về các dạng toán phương trình bậc hai.
-- Thước thẳng, compa (nếu cần vẽ đồ thị hàm số liên quan đến phương trình bậc hai).
-- Máy tính bỏ túi (nếu cần hỗ trợ tính toán).
+- Kế hoạch bài dạy (KHBD), giáo án chi tiết, bảng phụ (ghi các công thức nghiệm, định lý Viète), máy chiếu (nếu có), phần mềm trình chiếu (PowerPoint, Google Slides,...).
+- Bảng tóm tắt các bước giải phương trình bậc hai.
+- Phiếu học tập (bài tập tự luận, câu hỏi trắc nghiệm, bài tập thực hành giải phương trình, bài tập vận dụng định lý Viète, bài tập giải bài toán bằng cách lập phương trình bậc hai).
+- Thước thẳng, compa, êke (nếu cần thiết cho các bài toán hình học liên quan).

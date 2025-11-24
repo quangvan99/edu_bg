@@ -1,134 +1,116 @@
-# Nội dung bài giảng: tạo bài giảng phương trình bậc 2
+# Nội dung bài giảng: phuong trinh bac 2
 
 ## Mục tiêu bài giảng
 
 ### Năng lực
 #### Năng lực chung
-- Khả năng phân tích, so sánh và khái quát hóa.
+- Phát triển tư duy logic, khả năng phân tích, so sánh và khái quát hóa.
 - Rèn luyện kỹ năng hợp tác, giao tiếp, thảo luận trong hoạt động nhóm.
 - Vận dụng kiến thức vào giải quyết các vấn đề thực tiễn liên quan đến phương trình bậc hai.
 
 #### Năng lực môn học
-- Nhận biết được dạng tổng quát của phương trình bậc hai một ẩn và xác định các hệ số $a, b, c$.
-- Giải được phương trình bậc hai bằng công thức nghiệm tổng quát và công thức nghiệm thu gọn.
-- Sử dụng biệt thức $\Delta$ để xác định số nghiệm của phương trình bậc hai.
-- Vận dụng định lý Vi-ét để tính tổng và tích các nghiệm của phương trình bậc hai, giải các bài toán liên quan.
-- Giải các bài toán thực tế bằng cách lập phương trình bậc hai.
+- Nhận biết được dạng tổng quát của phương trình bậc hai một ẩn và các hệ số của nó.
+- Xác định được biệt thức Delta ($\Delta$) của phương trình bậc hai.
+- Vận dụng công thức nghiệm của phương trình bậc hai để giải các phương trình có nghiệm.
+- Sử dụng định lý Viète để tính tổng và tích các nghiệm của phương trình bậc hai (nếu có) và giải các bài toán liên quan.
+- Vận dụng kiến thức về phương trình bậc hai để giải các bài toán thực tế và các bài toán liên quan đến tham số.
 
 ### Phẩm chất
-- Rèn luyện tính cẩn thận, chính xác trong tính toán và giải phương trình bậc hai.
-- Phát triển tư duy logic, khả năng suy luận và giải quyết vấn đề thông qua các bài toán liên quan đến phương trình bậc hai.
-- Bồi dưỡng ý thức tự giác, chủ động học tập và tìm tòi kiến thức về phương trình bậc hai.
+- Cẩn thận, chính xác trong tính toán và trình bày bài giải phương trình bậc hai.
+- Chủ động, sáng tạo trong việc tìm tòi các phương pháp giải phương trình bậc hai khác nhau.
+- Có ý thức hợp tác, chia sẻ, giúp đỡ lẫn nhau trong học tập và vận dụng kiến thức vào thực tiễn.
 
 ## Thiết bị dạy học và học liệu
 
 ### Giáo viên
-- Kế hoạch bài dạy (KHBD), giáo án, bảng phụ, máy chiếu (nếu có), phần mềm trình chiếu (PowerPoint, Google Slides...) chứa các ví dụ, bài tập.
-- Bảng tóm tắt các công thức nghiệm tổng quát và nghiệm thu gọn của phương trình bậc hai.
-- Phiếu học tập:
-    - Bài tập nhận biết phương trình bậc hai và xác định hệ số $a, b, c$.
-    - Bài tập giải phương trình bậc hai bằng công thức nghiệm (tổng quát và thu gọn).
-    - Bài tập áp dụng biệt thức $\Delta$ để biện luận số nghiệm của phương trình bậc hai.
-    - Bài tập vận dụng định lý Vi-ét để tính tổng và tích các nghiệm.
-    - Bài tập giải bài toán thực tế bằng cách lập phương trình bậc hai.
-    - Câu hỏi trắc nghiệm kiểm tra kiến thức về các dạng toán phương trình bậc hai.
-- Thước thẳng, compa (nếu cần vẽ đồ thị hàm số liên quan đến phương trình bậc hai).
-- Máy tính bỏ túi (nếu cần hỗ trợ tính toán).
+- Kế hoạch bài dạy (KHBD), giáo án chi tiết, bảng phụ (ghi các công thức nghiệm, định lý Viète), máy chiếu (nếu có), phần mềm trình chiếu (PowerPoint, Google Slides,...).
+- Bảng tóm tắt các bước giải phương trình bậc hai.
+- Phiếu học tập (bài tập tự luận, câu hỏi trắc nghiệm, bài tập thực hành giải phương trình, bài tập vận dụng định lý Viète, bài tập giải bài toán bằng cách lập phương trình bậc hai).
+- Thước thẳng, compa, êke (nếu cần thiết cho các bài toán hình học liên quan).
 
 ### Học sinh
-- SGK Toán, vở ghi, dụng cụ học tập.
-- Thước thẳng, compa, êke (nếu cần vẽ hình hoặc đồ thị liên quan).
+- SGK Toán, vở ghi, dụng cụ học tập (bút, thước kẻ, compa, tẩy).
 - Giấy nháp.
-- Máy tính bỏ túi (để hỗ trợ tính toán).
-- Ôn lại các kiến thức về:
-    - Biến đổi biểu thức đại số.
-    - Giải phương trình bậc nhất một ẩn.
-    - Hằng đẳng thức đáng nhớ.
+- Bảng con (nếu có).
+- Ôn lại kiến thức về căn bậc hai, hằng đẳng thức đáng nhớ.
 
 ## Tiến trình dạy học
 
 ### Hoạt động 1: Hoạt động mở đầu
 #### Mục tiêu
 - Tạo tình huống có vấn đề, khơi gợi nhu cầu tìm hiểu về phương trình bậc hai.
-- Ôn lại kiến thức cũ về biến đổi biểu thức đại số, giải phương trình bậc nhất một ẩn và hằng đẳng thức đáng nhớ, liên hệ với bài học mới.
+- Kết nối kiến thức cũ về căn bậc hai, hằng đẳng thức đáng nhớ với nội dung bài mới.
 
 #### Nội dung
-- HS tham gia trò chơi/hoạt động khởi động liên quan đến giải toán nhanh hoặc đố vui về các biểu thức đại số.
-- HS trả lời câu hỏi gợi mở về ứng dụng của các biểu thức đại số trong giải quyết bài toán thực tế.
-- GV giới thiệu một bài toán thực tế dẫn đến phương trình bậc hai.
+- HS quan sát một số tình huống thực tế dẫn đến việc giải phương trình bậc hai (ví dụ: tính diện tích, giải bài toán chuyển động).
+- HS trả lời câu hỏi gợi mở về dạng của phương trình và các yếu tố đã biết.
 
 #### Sản phẩm
-- Sự tham gia tích cực của HS trong trò chơi/hoạt động khởi động.
-- Câu trả lời của HS về ứng dụng của biểu thức đại số.
-- Nhận biết ban đầu về sự cần thiết của việc học phương trình bậc hai để giải quyết bài toán.
+- Câu trả lời của HS về các tình huống, bài toán dẫn đến phương trình bậc hai.
+- Nhận xét ban đầu về dạng của phương trình và các yếu tố cần tìm.
 
 #### Tổ chức thực hiện
 
-| Hoạt động của GV và HS                                                                                                                                                                                                                | Tiến trình nội dung                                                                                                                                                                                                                       |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Hoạt động 1: Khởi động (5 phút)**                                                                                                                                                                                                 |                                                                                                                                                                                                                                          |
-| GV tổ chức trò chơi "Giải toán nhanh" hoặc "Đố vui" liên quan đến biến đổi biểu thức đại số, giải phương trình bậc nhất một ẩn, hằng đẳng thức đáng nhớ. Ví dụ: Tìm x biết $2x + 3 = 7$, hoặc khai triển $(a+b)^2$.                       | GV đưa ra các câu hỏi/bài tập nhanh để HS thực hiện.                                                                                                                                                                                          |
-| HS tham gia trò chơi/hoạt động sôi nổi.                                                                                                                                                                                                | HS nhanh chóng đưa ra đáp án.                                                                                                                                                                                                          |
-| GV đặt câu hỏi: "Các em đã từng gặp các biểu thức này ở đâu?", "Chúng có ứng dụng gì trong thực tế không?".                                                                                                                               | GV dẫn dắt HS liên hệ kiến thức cũ với thực tế.                                                                                                                                                                                             |
-| HS suy nghĩ và trả lời.                                                                                                                                                                                                             | HS đưa ra các ví dụ về ứng dụng của biểu thức đại số.                                                                                                                                                                                         |
-| **Hoạt động 2: Tạo tình huống có vấn đề (5 phút)**                                                                                                                                                                                   |                                                                                                                                                                                                                                          |
-| GV trình bày một bài toán thực tế dẫn đến phương trình bậc hai. Ví dụ: "Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng 5m, diện tích là 150 $m^2$. Tính chiều dài và chiều rộng của mảnh vườn."                               | GV nêu rõ yêu cầu của bài toán và nhấn mạnh sự khó khăn khi giải bằng kiến thức hiện tại.                                                                                                                                                  |
-| HS lắng nghe và nhận thấy sự khó khăn khi giải bài toán bằng kiến thức đã học.                                                                                                                                                           | HS nhận ra sự cần thiết của một công cụ toán học mới để giải quyết bài toán này.                                                                                                                                                            |
-| GV dẫn dắt: "Để giải quyết bài toán này, chúng ta cần học về phương trình bậc hai. Bài học hôm nay sẽ giúp các em có công cụ để giải quyết những bài toán tương tự."                                                                     | GV tạo động lực học tập cho HS bằng cách giới thiệu tính ứng dụng của phương trình bậc hai.                                                                                                                                              |
-| **Lưu ý:** Trong quá trình thực hiện, GV khuyến khích HS đặt câu hỏi, trao đổi và chia sẻ ý kiến để tạo không khí học tập tích cực. GV có thể sử dụng phần mềm trình chiếu để minh họa bài toán và các ví dụ trực quan hơn (nếu có). | GV quan sát, hỗ trợ và điều chỉnh hoạt động của HS để đảm bảo tất cả HS đều tham gia tích cực và hiểu rõ mục tiêu của hoạt động mở đầu. GV có thể chuẩn bị thêm một số bài toán tương tự để HS luyện tập và củng cố kiến thức (nếu còn thời gian). |
+| Hoạt động của GV và HS | Tiến trình nội dung |
+|---|---|
+| GV nêu một số bài toán thực tế:  Ví dụ 1: "Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng 5m và diện tích là 300 $m^2$. Tính chiều dài và chiều rộng của mảnh vườn."  Ví dụ 2: "Một vật rơi tự do từ độ cao h (mét) xuống đất. Thời gian rơi t (giây) được tính bởi công thức $h = \frac{1}{2}gt^2$, trong đó g ≈ 9.8 $m/s^2$ là gia tốc trọng trường. Nếu một vật rơi từ độ cao 49 mét, thì sau bao lâu vật chạm đất?" | GV đặt câu hỏi: "Các bài toán trên dẫn đến việc giải loại phương trình nào? Phương trình đó có dạng như thế nào?"  |
+| HS: Quan sát và trả lời câu hỏi, thảo luận nhóm nhỏ (2-3 học sinh) để đưa ra dự đoán. | HS trả lời: Các bài toán dẫn đến việc giải phương trình bậc hai. HS nêu dự đoán về dạng của phương trình (ví dụ: có dạng $ax^2 + bx + c = 0$). |
+| GV: Ghi nhận câu trả lời của HS, dẫn dắt vào bài mới: "Để hiểu rõ hơn về phương trình bậc hai và cách giải, chúng ta sẽ cùng tìm hiểu trong bài học hôm nay." | GV giới thiệu tên bài: "Phương trình bậc hai". |
 
 ### Hoạt động 2: Hình thành kiến thức
 #### Mục tiêu
-- HS nhận biết được dạng tổng quát của phương trình bậc hai một ẩn và xác định các hệ số $a, b, c$.
-- HS hiểu và vận dụng được công thức nghiệm tổng quát của phương trình bậc hai.
-- HS biết cách tính biệt thức $\Delta$ và sử dụng $\Delta$ để xác định số nghiệm của phương trình bậc hai.
+- HS nắm vững dạng tổng quát của phương trình bậc hai một ẩn và các hệ số của nó.
+- HS xác định được hệ số a, b, c trong phương trình bậc hai.
+- HS hiểu được khái niệm nghiệm của phương trình bậc hai.
 
 #### Nội dung
-- GV giới thiệu dạng tổng quát của phương trình bậc hai.
-- GV hướng dẫn HS xây dựng công thức nghiệm tổng quát của phương trình bậc hai (có thể thông qua hoạt động nhóm hoặc cá nhân).
-- GV giải thích ý nghĩa của biệt thức $\Delta$ và mối liên hệ giữa $\Delta$ và số nghiệm của phương trình.
-- HS thực hành nhận diện phương trình bậc hai, xác định hệ số và giải phương trình bằng công thức nghiệm.
+- GV giới thiệu dạng tổng quát của phương trình bậc hai: $ax^2 + bx + c = 0$ (với $a \ne 0$).
+- GV hướng dẫn HS xác định các hệ số a, b, c trong các ví dụ cụ thể.
+- GV giới thiệu khái niệm nghiệm của phương trình bậc hai và cách kiểm tra một số có phải là nghiệm hay không.
 
 #### Sản phẩm
-- HS phát biểu đúng dạng tổng quát của phương trình bậc hai và xác định chính xác các hệ số $a, b, c$.
-- HS viết đúng công thức nghiệm tổng quát của phương trình bậc hai.
-- HS tính đúng biệt thức $\Delta$ và xác định đúng số nghiệm của phương trình.
-- HS giải thành thạo các phương trình bậc hai đơn giản bằng công thức nghiệm.
+- HS phát biểu được dạng tổng quát của phương trình bậc hai.
+- HS xác định đúng các hệ số a, b, c trong các phương trình bậc hai khác nhau.
+- HS kiểm tra được một số cho trước có phải là nghiệm của phương trình bậc hai hay không.
 
 #### Tổ chức thực hiện
 
-| Hoạt động của GV và HS                                                                                                                                                                                                         | Tiến trình nội dung                                                                                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Hoạt động 1: Nhận biết phương trình bậc hai (10 phút)**                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                  |
-| GV đưa ra một loạt các phương trình, trong đó có phương trình bậc hai và các phương trình khác (bậc nhất, bậc ba,...). Ví dụ: $2x^2 + 3x - 5 = 0$, $x - 1 = 0$, $x^3 + 2x = 0$, $x^2 - 4 = 0$, $3x + 7 = 0$, $x^2 = 0$.       | GV yêu cầu HS quan sát và nhận xét đặc điểm chung của các phương trình. GV giới thiệu dạng tổng quát của phương trình bậc hai: $ax^2 + bx + c = 0$ (với $a \neq 0$). GV nhấn mạnh điều kiện $a \neq 0$.                                                                                                        |
-| HS quan sát, thảo luận và đưa ra nhận xét.                                                                                                                                                                                     | HS chỉ ra được các phương trình bậc hai trong danh sách. HS xác định các hệ số $a, b, c$ trong mỗi phương trình bậc hai.                                                                                                                                                                                   |
-| GV yêu cầu HS lấy ví dụ về phương trình bậc hai và chỉ rõ các hệ số $a, b, c$.                                                                                                                                                | GV quan sát, hỗ trợ và sửa sai cho HS nếu cần thiết.                                                                                                                                                                                                                                                              |
-| **Hoạt động 2: Xây dựng và vận dụng công thức nghiệm (20 phút)**                                                                                                                                                              |                                                                                                                                                                                                                                                                                                                  |
-| GV gợi ý HS biến đổi phương trình $ax^2 + bx + c = 0$ về dạng $(x + m)^2 = n$ bằng cách sử dụng phương pháp hoàn thiện bình phương.  GV hướng dẫn từng bước biến đổi, nhấn mạnh các phép biến đổi tương đương.                 | GV giới thiệu công thức nghiệm tổng quát: $$x_{1,2} = \frac{-b \pm \sqrt{\Delta}}{2a}$$, trong đó $\Delta = b^2 - 4ac$. GV giải thích ý nghĩa của các kí hiệu và công thức.                                                                                                                                     |
-| HS thực hiện biến đổi theo hướng dẫn của GV (có thể làm việc theo nhóm).                                                                                                                                                       | HS hiểu được cách xây dựng công thức nghiệm từ phương trình tổng quát. HS ghi nhớ công thức nghiệm tổng quát.                                                                                                                                                                                                 |
-| GV đưa ra một số ví dụ về phương trình bậc hai cụ thể. Ví dụ: $x^2 - 5x + 6 = 0$, $2x^2 + 4x - 6 = 0$, $x^2 + 2x + 1 = 0$.                                                                                                     | GV hướng dẫn HS cách áp dụng công thức nghiệm để giải các phương trình này. GV nhấn mạnh các bước: xác định $a, b, c$, tính $\Delta$, xét dấu $\Delta$ và kết luận về số nghiệm, tính nghiệm (nếu có).                                                                                                    |
-| HS thực hành giải các phương trình bậc hai dưới sự hướng dẫn của GV.                                                                                                                                                           | HS giải thành thạo các phương trình bậc hai bằng công thức nghiệm. HS hiểu rõ quy trình giải phương trình bậc hai.                                                                                                                                                                                            |
-| **Hoạt động 3: Biện luận số nghiệm của phương trình (10 phút)**                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                  |
-| GV nhắc lại công thức tính $\Delta = b^2 - 4ac$.                                                                                                                                                                             | GV nêu rõ:  - Nếu $\Delta > 0$: phương trình có hai nghiệm phân biệt.  - Nếu $\Delta = 0$: phương trình có nghiệm kép.  - Nếu $\Delta < 0$: phương trình vô nghiệm.                                                                                                                                          |
-| GV đưa ra các ví dụ và yêu cầu HS tính $\Delta$ và kết luận về số nghiệm của phương trình. Ví dụ:  - $x^2 - 4x + 3 = 0$ ( $\Delta > 0$)  - $x^2 - 4x + 4 = 0$ ( $\Delta = 0$)  - $x^2 + x + 1 = 0$ ( $\Delta < 0$)           | GV hướng dẫn HS cách sử dụng $\Delta$ để biện luận số nghiệm của phương trình. GV nhấn mạnh tầm quan trọng của việc tính đúng $\Delta$.                                                                                                                                                                              |
-| HS thực hành tính $\Delta$ và kết luận về số nghiệm của phương trình.                                                                                                                                                           | HS nắm vững mối liên hệ giữa $\Delta$ và số nghiệm của phương trình. HS biết cách biện luận số nghiệm của phương trình dựa vào giá trị của $\Delta$.                                                                                                                                                              |
+| Hoạt động của GV và HS                                                                                                                                                                      | Tiến trình nội dung                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GV: Giới thiệu dạng tổng quát của phương trình bậc hai một ẩn: $ax^2 + bx + c = 0$ (với $a, b, c$ là các số thực và $a \ne 0$).                                                                | GV nhấn mạnh:                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| "Trong đó:                                                                                                                                                                                 | - $x$ là ẩn số."                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| "- $a$ là hệ số của $x^2$ (hệ số bậc hai), $a \ne 0$."                                                                                                                                    | - $b$ là hệ số của $x$ (hệ số bậc nhất)."                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| "- $c$ là hệ số tự do."                                                                                                                                                                      | GV yêu cầu HS lấy ví dụ về phương trình bậc hai và chỉ ra các hệ số a, b, c.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| HS: Lấy ví dụ và xác định các hệ số. Ví dụ:                                                                                                                                                 | Ví dụ: Phương trình $2x^2 - 3x + 1 = 0$ có $a = 2$, $b = -3$, $c = 1$.                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Phương trình $-x^2 + 5 = 0$ có $a = -1$, $b = 0$, $c = 5$.                                                                                                                                   | GV đặt câu hỏi: "Nếu $a = 0$ thì phương trình $ax^2 + bx + c = 0$ có còn là phương trình bậc hai không? Tại sao?"                                                                                                                                                                                                                                                                                                                                                             |
+| GV: Giới thiệu khái niệm nghiệm của phương trình bậc hai: "Nghiệm của phương trình bậc hai là giá trị của ẩn $x$ sao cho khi thay vào phương trình, ta được một đẳng thức đúng."           | GV đưa ra ví dụ: "Kiểm tra xem $x = 1$ có phải là nghiệm của phương trình $x^2 - 3x + 2 = 0$ hay không?"                                                                                                                                                                                                                                                                                                                                                                         |
+| HS: Thay $x = 1$ vào phương trình: $1^2 - 3(1) + 2 = 1 - 3 + 2 = 0$. Vậy $x = 1$ là nghiệm của phương trình.                                                                                   | GV hướng dẫn HS cách kiểm tra: Thay $x = 1$ vào vế trái của phương trình, nếu vế trái bằng 0 (vế phải) thì $x = 1$ là nghiệm của phương trình.                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| GV: Cho HS làm bài tập luyện tập: Xác định hệ số và kiểm tra nghiệm của các phương trình.                                                                                                   | Bài tập ví dụ: Cho các phương trình sau, xác định hệ số a, b, c và kiểm tra xem $x = 2$ có phải là nghiệm của phương trình hay không: a) $x^2 - 4x + 4 = 0$ ; b) $2x^2 - 5x + 2 = 0$ ; c) $x^2 + x + 1 = 0$                                                                                                                                                                                                                                                                  |
+| HS: Làm bài tập cá nhân và báo cáo kết quả. GV kiểm tra và sửa lỗi (nếu có).                                                                                                                 | GV kết luận: Để xác định hệ số của phương trình bậc hai, ta cần đưa phương trình về dạng tổng quát. Để kiểm tra một số có phải là nghiệm của phương trình, ta thay số đó vào phương trình và kiểm tra xem có thỏa mãn hay không.                                                                                                                                                                                                                                                                 |
 
 ### Hoạt động 3: Luyện tập
 #### Mục tiêu
-- Củng cố kiến thức về phương trình bậc hai một ẩn, công thức nghiệm tổng quát và cách biện luận số nghiệm.
-- Rèn luyện kỹ năng giải phương trình bậc hai bằng công thức nghiệm, tính toán chính xác và trình bày khoa học.
-- Vận dụng kiến thức đã học để giải các bài tập đa dạng liên quan đến phương trình bậc hai.
-
+- Củng cố kiến thức về dạng tổng quát, hệ số và nghiệm của phương trình bậc hai.
+- Rèn luyện kỹ năng xác định hệ số, kiểm tra nghiệm của phương trình bậc hai.
+- Vận dụng kiến thức để giải các bài tập liên quan đến phương trình bậc hai.
 #### Nội dung
-- Bài tập 1: Nhận biết phương trình bậc hai và xác định hệ số $a, b, c$ (trắc nghiệm, điền khuyết).
-- Bài tập 2: Giải phương trình bậc hai bằng công thức nghiệm tổng quát (tự luận).
-- Bài tập 3: Sử dụng biệt thức $\Delta$ để xác định số nghiệm của phương trình bậc hai mà không cần giải (tự luận).
-- Bài tập 4: Tìm lỗi sai trong bài giải phương trình bậc hai và sửa lại cho đúng (tự luận).
-- Trò chơi "Ai nhanh hơn": Giải nhanh các phương trình bậc hai đơn giản (ví dụ: $x^2 - 4 = 0$, $x^2 - 2x = 0$).
-
+- Bài tập 1: Trắc nghiệm: Chọn đáp án đúng về hệ số của phương trình bậc hai.
+- Bài tập 2: Điền khuyết: Hoàn thành các phương trình bậc hai khi biết trước một số hệ số.
+- Bài tập 3: Xác định hệ số $a, b, c$ của các phương trình bậc hai cho trước.
+- Bài tập 4: Kiểm tra xem một số cho trước có phải là nghiệm của phương trình bậc hai hay không.
+- Bài tập 5: Tìm các giá trị của tham số $m$ để phương trình trở thành phương trình bậc hai.
 #### Sản phẩm
 - Câu trả lời đúng cho các bài tập trắc nghiệm và điền khuyết.
-- Lời giải chi tiết, chính xác cho các bài tập tự luận, trình bày rõ ràng các bước giải.
-- Tìm ra và sửa đúng các lỗi sai trong bài giải phương trình bậc hai.
-- Giải nhanh và chính xác các phương trình bậc hai trong trò chơi.
+- Xác định chính xác các hệ số $a, b, c$ của phương trình bậc hai.
+- Kết luận chính xác về việc một số cho trước có phải là nghiệm của phương trình hay không.
+- Tìm đúng giá trị của tham số $m$ để phương trình là phương trình bậc hai.
+#### Tổ chức thực hiện
+| Hoạt động của GV và HS | Tiến trình nội dung |
+|---|---|
+| **Bài tập 1 (Trắc nghiệm):** GV chiếu hoặc phát phiếu bài tập trắc nghiệm về hệ số của phương trình bậc hai. Ví dụ: "Phương trình nào sau đây là phương trình bậc hai? A. $x + 1 = 0$ B. $x^2 - 2x + 1 = 0$ C. $\frac{1}{x} = 2$ D. $\sqrt{x} = 3$" | HS làm bài cá nhân, sau đó thảo luận nhóm để thống nhất đáp án. |
+| **Bài tập 2 (Điền khuyết):** GV đưa ra các phương trình bậc hai khuyết một vài hệ số và yêu cầu HS điền vào chỗ trống. Ví dụ: "$x^2 + ...x + 3 = 0$ với $b = -5$" | HS suy nghĩ và điền vào chỗ trống các hệ số còn thiếu. |
+| **Bài tập 3 (Xác định hệ số):** GV đưa ra một loạt các phương trình bậc hai và yêu cầu HS xác định hệ số $a, b, c$. Ví dụ: "Xác định $a, b, c$ trong phương trình $3x^2 - 7x + 2 = 0$." | HS làm bài cá nhân, sau đó GV gọi một vài HS lên bảng trình bày. |
+| **Bài tập 4 (Kiểm tra nghiệm):** GV đưa ra một phương trình bậc hai và một vài giá trị của $x$, yêu cầu HS kiểm tra xem giá trị nào là nghiệm của phương trình. Ví dụ: "Kiểm tra xem $x = 1$ và $x = 2$ có phải là nghiệm của phương trình $x^2 - 3x + 2 = 0$ hay không?" | HS thay lần lượt các giá trị của $x$ vào phương trình và kiểm tra. |
+| **Bài tập 5 (Tìm tham số):** GV đưa ra một phương trình chứa tham số $m$ và yêu cầu HS tìm giá trị của $m$ để phương trình đó là phương trình bậc hai. Ví dụ: "Tìm $m$ để phương trình $(m - 1)x^2 + 2x - 3 = 0$ là phương trình bậc hai." | HS suy nghĩ và giải bài toán tìm $m$. GV hướng dẫn: "Để phương trình trên là phương trình bậc hai, điều kiện là gì?" |
+| GV: Chấm điểm, nhận xét và chữa bài cho HS. | GV: Nhấn mạnh các lỗi sai thường gặp và cách khắc phục. |
 

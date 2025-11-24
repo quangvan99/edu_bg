@@ -1,9 +1,5 @@
 ### Học sinh
-- SGK Toán, vở ghi, dụng cụ học tập.
-- Thước thẳng, compa, êke (nếu cần vẽ hình hoặc đồ thị liên quan).
+- SGK Toán, vở ghi, dụng cụ học tập (bút, thước kẻ, compa, tẩy).
 - Giấy nháp.
-- Máy tính bỏ túi (để hỗ trợ tính toán).
-- Ôn lại các kiến thức về:
-    - Biến đổi biểu thức đại số.
-    - Giải phương trình bậc nhất một ẩn.
-    - Hằng đẳng thức đáng nhớ.
+- Bảng con (nếu có).
+- Ôn lại kiến thức về căn bậc hai, hằng đẳng thức đáng nhớ.
